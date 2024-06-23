@@ -29,14 +29,14 @@ export const Navbar = () => {
                         className={ ({isActive}) => `nav-item nav-link ${isActive? 'active' : ''} `   }
                         to="/arg"
                     >
-                        arg
+                        Argentina
                     </NavLink>
 
                     <NavLink 
                         className={ ({isActive}) => `nav-item nav-link ${isActive? 'active' : ''} `   }
                         to="/bra"
                     >
-                        bra
+                        Brasil
                     </NavLink>
                     <NavLink 
                         className={ ({isActive}) => `nav-item nav-link ${isActive? 'active' : ''} `   }

@@ -26,7 +26,8 @@ export const ProvinceCard = ({id,
     <div className="card">
     <div className="row no-gutters">
         <div className="col-4">
-            <img className="card-img" src="`/assets/city/${id}.jpg`" alt={nombre}></img>
+            <img className="card-img full-size-img" src={`/src/assets/city/${id.toLowerCase()}.jpg`} alt={nombre}></img>
+
        </div>
        <div className="col-8">
         <div className="card-body">

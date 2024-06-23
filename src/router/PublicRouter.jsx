@@ -10,7 +10,7 @@ export const PublicRouter = ({children}) => {
 
   return (!logged?
     children
-    :
+    : 
     <Navigate to={"/"}></Navigate>
   )
 }

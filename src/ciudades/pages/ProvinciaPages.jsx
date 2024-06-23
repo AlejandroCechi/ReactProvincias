@@ -21,7 +21,7 @@ export const ProvinciaPages = () => {
   return (
     <div className="row mt-5">
       <div className="col-4">
-        <img src={`/assets/${province.id}.jpg`} alt={ province.id} />
+        <img src={`/src/assets/city/${province.id.toLowerCase()}.jpg`} alt={ province.id} />
       </div>
       <div className="col-8">
       <h3>{ province.nombre } </h3> 
